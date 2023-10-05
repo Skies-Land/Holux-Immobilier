@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Holux Immobilier - Jonathan Araldi</title>
+    </head>
+
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Holux Immobilier <i class='bx bxs-home-alt-2'></i>
+                </a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt-2' ></i>
+                                <span>Accueil</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#popular" class="nav__link">
+                                <i class='bx bx-building-house' ></i>
+                                <span>Résidences</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#value" class="nav__link">
+                                <i class='bx bx-award' ></i>
+                                <span>Valeur</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bx-phone' ></i>
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button" ></i>
+
+                <a href="#subscribe" class="button nav__button">
+                    S'abonner
+                </a>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Découvrez <br> la propriété la plus convenable
+                        </h1>
+                        <p class="home__description">
+                            Trouvez très facilement une variété de propriétés qui vous conviennent, 
+                            oublier toutes les difficultés à trouver une résidence pour vous.
+                        </p>
+
+                        <form action="" class="home__search">
+                            <i class='bx bxs-map'></i>
+                            <input type="search" placeholder="Par localisation..." class="home__search-input">
+                            <button class="button">Recherche</button>
+                        </form>
+
+                        <div class="home__value">
+                            <div>
+                                <h1 class="home__value-number">
+                                    9K <span>+</span>
+                                </h1>
+                                <span class="home__value-description">
+                                    Produit <br> Premiun
+                                </span>
+                            </div>
+                            <div>
+                                <h1 class="home__value-number">
+                                    2K <span>+</span>
+                                </h1>
+                                <span class="home__value-description">
+                                    Client <br> Satisfait
+                                </span>
+                            </div>
+                            <div>
+                                <h1 class="home__value-number">
+                                    28K <span>+</span>
+                                </h1>
+                                <span class="home__value-description">
+                                    Prix <br> Remportés
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="home__images">
+                        <div class="home__orbe"></div>
+
+                        <div class="home__img">
+                            <img src="assets/img/home.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== LOGOS ====================-->
+            <section class="logos section">
+                <div class="logos__container container grid">
+                    <div class="logos__img">
+                        <img src="assets/img/logo1.png" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="assets/img/logo2.png" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="assets/img/logo3.png" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="assets/img/logo4.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== POPULAR ====================-->
+            <section class="section" id="popular">
+                <div class="container">
+                    <span class="section__subtitle">Meilleur choix</span>
+                    <h2 class="section__title">
+                        Résidences Populaire<span>.</span>
+                    </h2>
+                    <div class="popular__container swiper">
+                        <div class="swiper-wrapper">
+                            <!--==================== POPULAR 1 ====================-->
+                            <article class="popular__card swiper-slide">
+                                <img src="assets/img/res_popular1.jpg" alt="" class="popular__img">
+
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        2 770 000 <span>€</span>
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Dal Assate [Ref. #9876]
+                                    </h3>
+                                    <p class="popular__description">
+                                        France  <i class='bx bxs-map'></i> <br>
+                                        Nous contacter  pour l'adresse exacte
+                                    </p>
+                                </div>
+                            </article>
+                            <!--==================== POPULAR 2 ====================-->
+                            <article class="popular__card swiper-slide">
+                                <img src="assets/img/res_popular2.jpg" alt="" class="popular__img">
+
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        530 000 <span>€</span>
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Amada Liz [Ref. #9901]
+                                    </h3>
+                                    <p class="popular__description">
+                                        France  <i class='bx bxs-map'></i> <br>
+                                        Nous contacter  pour l'adresse exacte
+                                    </p>
+                                </div>
+                            </article>
+                            <!--==================== POPULAR 3 ====================-->
+                            <article class="popular__card swiper-slide">
+                                <img src="assets/img/res_popular3.jpg" alt="" class="popular__img">
+
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        4 400 000 <span>€</span>
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Volt Demeur [Ref. #7577]
+                                    </h3>
+                                    <p class="popular__description">
+                                        France  <i class='bx bxs-map'></i> <br>
+                                        Nous contacter  pour l'adresse exacte
+                                    </p>
+                                </div>
+                            </article>
+                            <!--==================== POPULAR 4 ====================-->
+                            <article class="popular__card swiper-slide">
+                                <img src="assets/img/res_popular4.jpg" alt="" class="popular__img">
+
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        1 162 000 <span>€</span>
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Orchard City [Ref. #7321]
+                                    </h3>
+                                    <p class="popular__description">
+                                        France  <i class='bx bxs-map'></i> <br>
+                                        Nous contacter  pour l'adresse exacte
+                                    </p>
+                                </div>
+                            </article>
+                            <!--==================== POPULAR 5 ====================-->
+                            <article class="popular__card swiper-slide">
+                                <img src="assets/img/res_popular5.jpg" alt="" class="popular__img">
+
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        3 900 000 <span>€</span>
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Aliva Sea [Ref. #5431]
+                                    </h3>
+                                    <p class="popular__description">
+                                        France  <i class='bx bxs-map'></i> <br>
+                                        Nous contacter  pour l'adresse exacte
+                                    </p>
+                                </div>
+                            </article>
+                            <!--==================== POPULAR 6 ====================-->
+                            <article class="popular__card swiper-slide">
+                                <img src="assets/img/res_popular6.jpeg" alt="" class="popular__img">
+
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        850 000 <span>€</span>
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Claire Garden [Ref. #5431]
+                                    </h3>
+                                    <p class="popular__description">
+                                        France  <i class='bx bxs-map'></i> <br>
+                                        Nous contacter  pour l'adresse exacte
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="swiper-button-next">
+                            <i class='bx bx-chevron-right'></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class='bx bx-chevron-left' ></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VALUE ====================-->
+            <section class="value section" id="value">
+                <div class="value__container container grid">
+                    <div class="value__images">
+                        <div class="value__orbe"></div>
+
+                        <div class="value__img">
+                            <img src="assets/img/value.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="value__content">
+                        <div class="value__data">
+                            <span class="section__subtitle">Nos Valeur</span>
+                            <h2 class="section__title">
+                                Valeur que nous vous offrons<span>.</span>
+                            </h2>
+                            <p class="value__description">
+                                Nous sommes toujours prêts à vous aider en vous fournissant le meilleur service possible. 
+                                Nous croyons qu'un bon endroit pour vivre peut rendre votre vie meilleure.
+                            </p>
+                        </div>
+
+                        <div class="value__accordion">
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bxs-shield-x value__accordion-icon' ></i>
+                                    <h3 class="value__accordion-title">
+                                        Les meilleurs taux d'intérêt du marché
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow' ></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <p class="value__accordion-description">
+                                        Chaque mois nos partenaires bancaires, nationaux, régionaux ou en ligne, 
+                                        nous transmettent leurs barèmes de taux de prêt immobilier, nous donnant
+                                        ainsi une vision globale des taux d'intérêts pratiqués.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bxs-x-square value__accordion-icon' ></i>
+                                    <h3 class="value__accordion-title">
+                                        Prévenir l'instabilité des prix
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow' ></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <p class="value__accordion-description">
+                                        Le prix que nous vous proposons est le meilleur pour vous, 
+                                        nous garantissons qu'il n'y aura pas de changement de prix sur votre 
+                                        propriété en raison de divers coûts imprévus qui pourraient survenir.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bxs-bar-chart-square value__accordion-icon' ></i>
+                                    <h3 class="value__accordion-title">
+                                        Les meilleurs prix du marché
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow' ></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <p class="value__accordion-description">
+                                        Chaque jour, nous nous efforçons de rester très compétitifs sur le 
+                                        marché en vous proposant les meilleures résidences aux meilleurs prix.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bxs-check-square value__accordion-icon' ></i>
+                                    <h3 class="value__accordion-title">
+                                        Sécurité de vos données
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow ' ></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <p class="value__accordion-description">
+                                        Nous nous engageons à respecter les données de nos clients.
+                                        Vos données sont chiffrés et stockées sur des serveurs français.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section" id="contact">
+                <div class="contact__container container grid">
+                    <div class="contact__images">
+                        <div class="contact__orbe"></div>
+
+                        <div class="contact__img">
+                            <img src="assets/img/contact 2.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <div class="contact__data">
+                            <span class="section__subtitle">Contactez-nous</span>
+                            <h2 class="section__title">
+                                Facilité de contact <span>.</span>
+                            </h2>
+                            <p class="contact__description">
+                                Vous avez des difficultés à trouver la maison de vos rêves ? Vous avez besoin d'un 
+                                conseiller pour l'achat d'une première maison, ou d'une consultation 
+                                sur des questions résidentielles ? <br> Contactez-nous.
+                            </p>
+                        </div>
+
+                        <div class="contact__card">
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxs-phone-call'></i>
+
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Appelez
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            08 01 02 03 04
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <button class="button contact__card-button">
+                                    Appelez <br> maintenent
+                                </button>
+                            </div>
+                            
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxs-message-rounded-dots'></i>
+
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Livechat
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            Talk live
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <button class="button contact__card-button">
+                                    Livechat <br> maintenant
+                                </button>
+                            </div>
+
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxs-video'></i>
+
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Appel vidéo
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            Google Meet
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <button class="button contact__card-button">
+                                    Démarrer un <br> appel vidéo
+                                </button>
+                            </div>
+
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxs-envelope'></i>
+
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Message
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            Email
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <button class="button contact__card-button">
+                                    Envoyez <br> un message
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section" id="subscribe">
+                <div class="subscribe__container container">
+                    <h1 class="subscribe__title">
+                        S'abonner à Holux Immobilier
+                    </h1>
+                    <p class="subscribe__description">
+                        Abonnez-vous à notre newsletter et trouvez des prix super attractifs.
+                        Trouvez votre résidence bientôt.
+                    </p>
+                    <a href="#" class="button subscribe__button">
+                        S'abonner
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        Holux Immobilier <i class='bx bxs-home-alt-2'></i>
+                    </a>
+                    <p class="footer__description">
+                        Notre vision est de faire en sorte que tout le monde <br> 
+                        puisse trouver le meilleur endroit où vivre.
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <div>
+                        <h3 class="footer__title">
+                            À propos
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Qui sommes-nous</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Avis clients</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Conditions générales de ventes</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Mentions légales</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Entreprise
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Nos agences</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Nos partenaires</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Nous rejoindre !</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Ressources
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Aide et FAQ</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Information légales</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="footer__title">
+                            Suivez-nous
+                        </h3>
+
+                        <ul class="footer__social">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-facebook-circle' ></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-instagram-alt' ></i>
+                            </a>
+                            <a href="https://www.pinterest.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-pinterest' ></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__info container">
+                <span class="footer__copy">
+                    &#169; Holux Immobillier par Jonathan Araldi.
+                </span>
+
+                <div class="footer__privacy">
+                    <a href="#">Conditions et accords</a>
+                    <a href="#">Politique de confidentialité</a>
+                </div>
+            </div>
+
+        </footer>
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-chevrons-up'></i>
+        </a>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
