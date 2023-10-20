@@ -9,4 +9,6 @@
 
 👨‍💻 Projet réalisé avec la vidéo tutoriel de [Bedimcode](https://www.youtube.com/c/Bedimcode/videos) sur Youtube
 
+▶ [Voir le projet : Holux-Immobilier](https://skies-land.github.io/Holux-Immobilier/)
+
 ![preview_holux](https://github.com/Skies-Land/Holux-Immobilier/assets/146822518/590f6892-f703-4858-a41e-ab3f82685794)
